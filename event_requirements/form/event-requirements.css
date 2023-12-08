@@ -1,0 +1,215 @@
+/* entry page - style guide */
+
+@font-face {
+  font-family: Merlo;
+  src: url(/accounts/register123/ushmm/MerloTx-Regular.otf);
+}
+
+@font-face {
+  font-family: MerloItalic;
+  src: url(/accounts/register123/ushmm/MerloTx-RegularItalic.otf);
+}
+
+
+#style-guide {
+	margin:30px 0px 0px;
+}
+
+#style-guide .style-guide-header {
+	border-bottom:1px solid #85878A;
+	margin:30px 0;
+}
+
+#style-guide .style-guide-header h2 {
+	font-family:"Knockout 50 A","Knockout 50 B","Arial Narrow","Trebuchet MS","Helvetica","Arial",sans-serif;
+	color:#85878A;
+	text-transform: capitalize;
+}
+
+#style-guide .style-guide-header p,
+#style-guide ul {
+	font-family:"Merlo","Georgia",serif!important;
+	color:#231F20;
+	font-size:1em!important;
+	line-height:1.2em!important;
+	margin: 20px 0;
+}
+
+#style-guide .style-guide-header p,
+#style-guide .style-guide-content ul {
+	width:75%;
+}
+
+#style-guide .style-guide-content .font-family-wrapper {
+	margin-bottom:50px;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-definition,
+#style-guide .style-guide-content h5 {
+	font-family:"Knockout 50 A","Knockout 50 B","Arial Narrow","Trebuchet MS","Helvetica","Arial",sans-serif!important;
+	color:#231F20;
+	font-size:1em!important;
+	line-height:1.2em!important;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample {
+	color: #231F20;
+    font-size: 2.25em!important;
+    line-height: 1.2em!important;
+    position: relative;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample span.font-sample-numerals {
+	position:absolute;
+	right:0px;
+	bottom:-3px;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.knockout-30 {
+	font-family:"Knockout 30 A","Knockout 30 B","Arial Narrow","Trebuchet MS","Helvetica","Arial",sans-serif!important;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.knockout-49 {
+	font-family:"Knockout 49 A","Knockout 49 B","Arial Narrow","Trebuchet MS","Helvetica","Arial",sans-serif!important;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.knockout-50 {
+	font-family:"Knockout 50 A","Knockout 50 B","Arial Narrow","Trebuchet MS","Helvetica","Arial",sans-serif!important;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.merlo-roman {
+	font-family:"Merlo","Georgia",serif!important;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.merlo-italic {
+	font-family:"MerloItalic","Georgia",serif!important;
+	font-style:italic;
+}
+
+#style-guide h5 {
+	margin: 0;
+	margin-bottom:5px;
+}
+
+#style-guide ul {
+	margin: 0;
+	margin-bottom:20px;
+	list-style-type:disc;
+}
+
+#style-guide ul li {
+	margin: 0;
+	line-height:1.1em;
+}
+
+#style-guide ul ul li,
+#style-guide ul ul li span {
+	margin: 0;
+	line-height:1em;
+}
+
+#style-guide .knockout-50 {
+	font-family:"Knockout 50 A","Knockout 50 B","Arial Narrow","Trebuchet MS","Helvetica","Arial",sans-serif!important;
+}
+
+#style-guide .merlo-italic {
+	font-family:"MerloItalic","Georgia",serif!important;
+	font-style:italic;
+}
+
+#style-guide .mercury {
+	font-family:"Mercury SSm A","Mercury SSm B","Georgia",serif!important;
+}
+
+#style-guide .orange {
+	color:#F37021;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.knockout-50.headline {
+	font-size:4rem!important;
+	line-height:1!important;
+	color:#121212;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.knockout-50.subhead {
+	font-size:2.5rem!important;
+	line-height:1!important;
+	color:#121212;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.body {
+	font-size:1.15em!important;
+	line-height:1.4286!important;
+	color:#383838;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.caption {
+	font-size:.9em!important;
+	line-height:1.4286!important;
+	color:#383838;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.right-rail {
+	font-size:1rem!important;
+	line-height:1.4286!important;
+	color:#383838;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.bio {
+	font-size:1rem!important;
+	line-height:1.4286!important;
+	color:#787878;
+	font-weight:700!important;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.button {
+	font-size:1.25rem!important;
+	line-height:1.4286!important;
+	color:#ffffff;
+	background-color:#337AB7;
+	border-radius:4px;
+	padding: 6px 12px;
+	letter-spacing: .5px;
+	text-align: center;
+	border:1px solid #2e6da4;
+}
+
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.headline span.font-sample-numerals,
+#style-guide .style-guide-content .font-family-wrapper p.font-sample.button span.font-sample-numerals {
+	display: block;
+	position: relative;
+}
+
+/* hide continue button 
+
+.form-table[data="entryTable"] {
+	display:none;
+}
+*/
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+	#style-guide .style-guide-header p,
+	#style-guide .style-guide-content ul {
+		width:100%;
+	}
+	
+	#style-guide .style-guide-content .font-family-wrapper p.font-sample span.font-sample-numerals {
+		display: block;
+    	position: relative;
+	}
+}
+
+@media (max-width: 768px) {
+	#style-guide .style-guide-header p,
+	#style-guide .style-guide-content ul {
+		width:100%;
+	}
+	
+	#style-guide .style-guide-content .font-family-wrapper p.font-sample span.font-sample-numerals {
+		display: block;
+    	position: relative;
+	}
+}

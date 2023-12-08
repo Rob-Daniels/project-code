@@ -1,0 +1,221 @@
+a,
+a:hover,
+	a:link, a:active, a:visited {
+	color: #f37021;
+}
+	
+	.form-table {
+    margin: auto;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px;
+    /* background-color: #f1f1f1; */
+    padding: 0px 0px 20px 0;
+    border-radius: 10px;
+}
+	
+.form-table table {
+    float: left!important;
+}
+	
+	.form-table table td {
+    text-align: left!important;
+    width: auto!important;
+    /* vertical-align: baseline; */
+}
+
+	.form-table .text #entry-content p, .form-table .text p {
+    font-size: 1em !important;
+    line-height: 1.3em !important;
+    font-family: "Segoe UI",roboto,oxygen,ubuntu,cantarell,"Open Sans","Helvetica Neue",sans-serif!important;
+}
+	
+	.form-table input[type="text"], .form-table select {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px;
+}
+	
+#page-table .form-table[data="entryTable"] {
+    margin-top: 0px!important;
+}
+	
+	.form-table label .subheader {
+    font-family: "Segoe UI",roboto,oxygen,ubuntu,cantarell,"Open Sans","Helvetica Neue",sans-serif!important;
+    margin-right: 20px;
+    font-size: 1em !important;
+}
+	
+.form-table *,
+.certain-reg-email-assistance-link {
+	font-family: "Segoe UI",roboto,oxygen,ubuntu,cantarell,"Open Sans","Helvetica Neue",sans-serif;
+}
+	
+.form-table {
+    margin: 30px auto 0px!important;
+    width: 92%!important;
+}
+
+.form-table input[name="username"], .form-table input[name="password"] {
+    width: 200px!important;
+    margin-bottom: 0px;
+}
+	
+/* Entry Page */
+
+#entry-content {
+	margin-top: 10px;
+}
+
+#entry-content h2 {
+	text-transform: none;
+}
+
+#entry-content .entry-content-intro {
+	display: flex;
+    flex-direction: row-reverse;
+	column-gap: 40px;
+	align-items: center;
+}
+
+#entry-content .entry-content-intro > div {
+	width: 50%;
+}
+
+#entry-content .entry-content-intro img {
+	width: 100%;
+}
+
+#entry-content .entry-content-intro .entry-content-intro-image {
+	width: 50%;
+}
+
+#entry-content .entry-content-intro .entry-content-intro-text {
+	width: 50%;
+}
+
+#entry-content .entry-content-intro .entry-content-intro-text h3:first-child {
+	margin-top:0px;
+}
+
+#entry-content ul {
+	margin-left:0;
+	padding-left:0;
+	padding-inline-start: 40px;
+}
+
+#entry-content ul li {
+	line-height: 1.3em;
+    margin-bottom: 7px;
+}
+
+#entry-content .entry-content-main .program-info:first-of-type h3 {
+	margin-top:0px;
+}
+
+#entry-content .entry-content-main .program-info .program-info-item h5 {
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+
+#entry-content .entry-content-main .program-info ol {
+	font-weight: 400;
+}
+
+#entry-content .entry-content-main .program-info ol li ul {
+	font-weight: 400;
+}
+
+#entry-content .entry-content-main .program-info ol li > ul {
+	margin-top:5px;
+}
+
+#entry-content .entry-content-main .program-info ol li ul ul {
+	margin: 20px 0;
+}
+
+#entry-content .entry-content-main .apply-now {
+	display: grid;
+    clear: both;
+    padding-top: 10px;
+}
+
+#entry-content .entry-content-main .modify-application p {
+	margin-bottom:0px;
+}
+
+#entry-content input {
+	margin: 6px 0 30px;
+}
+
+input#submitForm {
+	margin: 0px 0 30px;
+}
+
+input[value="Continue"] {
+	margin-left:45px!important;
+}
+
+.form-table .text #entry-content p,
+.form-table .text p {
+	font-size: 1em !important;
+    line-height: 1.3em !important;
+	font-family: "Segoe UI",roboto,oxygen,ubuntu,cantarell,"Open Sans","Helvetica Neue",sans-serif!important;
+}
+
+.certain-reg-email-assistance-link {
+	margin-top: 15px;
+	left: 45px!important;
+	color: #f37021!important;
+}
+	
+	.form-table input + br {
+	display: none!important;
+}
+
+
+/* /Entry Page */
+	
+/* Buttons */
+
+.r123FormSubmit,
+#page-table input#submitForm,
+input[name="submitForm"],
+.r123FormSubmit.btnSE,
+.r123FormSubmit:hover,
+#page-table input#submitForm:hover,
+input[name="submitForm"]:hover,
+.r123FormSubmit.btnSE:hover {
+	cursor: pointer;
+    outline: 0px;
+    color: #fff;
+    background-color: #337ab7!important;
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+    border: 0px;
+    padding: 10px 15px!important;
+    border-radius: 0.25rem!important;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	font-weight: 600;
+	font-size: 1.2em!important;
+	max-width: 260px!important;
+	left:0!important;
+	text-transform: uppercase;
+}
+
+.r123FormSubmit:hover,
+#page-table input#submitForm:hover,
+input[name="submitForm"]:hover,
+.r123FormSubmit.btnSE:hover {
+	color: #fff;
+	background-color: #23527c!important;
+}
+	

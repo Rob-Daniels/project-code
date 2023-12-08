@@ -1,0 +1,142 @@
+<!-- Latest compiled and minified CSS --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel='stylesheet' id='sb_instagram_icons-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css?ver=4.6.3' type='text/css' media='all' /><link rel="stylesheet" href="/accounts/register123/ushmm/events/templatehostedfiles/certain_responsive_template_style.css"/><style>
+body, body.event-form-container {
+  background-color: #eee !important;
+}
+
+body.event-form-container {
+  padding: 30px 0 !important;
+}
+
+body.event-form-container > #page-table {
+  max-width: 970px !important;
+}
+
+body.event-form-container .title {
+display: block !important;
+margin: 20px 0 !important;
+}
+
+body.event-form-container .header {
+  font-family: helvetica !important;
+  font-size: 1.8em !important;
+  margin: 30px 0 !important;
+  position: relative !important;
+  left: 30px !important;
+}
+
+body.event-form-container #submitForm {
+  background-color: #4f6d91 !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  display: block !important;
+  font-size: 1.2em !important;
+  margin: 0 auto 20px !important;
+  max-width: 260px !important;
+  padding: 15px !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+</style>
+<style>
+  #page-table tr.section-header > td .header{
+    line-height: 1em;
+  }
+  table[data='attendeeTypeTable'] {
+    margin: auto;
+  }
+  #page-table div[align='left'] .subheader, #page-table div[align='left'] .text {
+      display: block;
+      width: 90%;
+      margin: auto;
+	}
+  #page-table tr.section-header.no-border {
+    border-bottom: 0;
+  }
+  #page-table tr.section-header.no-border td {
+    padding-bottom: 0;
+  }
+  .sub-header .form-table {
+    width: 100% !important;
+    border-bottom: 1px solid #c1c1c1;
+    border-radius: 0;
+    padding: 0;
+	}
+  .sub-header .form-table > tbody > tr > td {
+    padding: 0 30px 30px 30px;
+	}
+  .sub-header .form-table > tbody > tr > td > .text {
+    color: #727272;
+    font-size: 1.3em;
+    font-family: "Knockout 50 A", "Knockout 50 B", "Arial Narrow", "Trebuchet MS", Helvetica, sans-serif !important;
+	}
+  @media screen and (max-width: 1200px ) {
+  table[data=agendaTable] {
+      margin: 0 auto;
+  }
+  table[data="agendaTable"] td {
+      width: 100%;
+      display: block;
+  }
+  table[data="agendaTable"] td div {
+      margin-left: 0 !important;
+  }
+}
+@media screen and (max-width: 768px ) {
+  #page-table input#submitForm {
+      left: initial;
+      float: none;
+  }
+  .certain-reg-email-assistance-link {
+      float: none !important;
+      left: initial !important;
+  }
+}
+</style>
+
+<!--- Style for payment page ---->
+<style>
+.sub-header table[data="transactionSummaryTable"], .sub-header table[data="billingAddressTable"], .sub-header table[data="balanceDueTable"] {
+    width: 96% !important;
+}
+form table[data="billingAddressTable"] tbody tr td {
+    text-align: left;
+}
+.r123formselect{
+    margin: 0 0 2px 0;
+    padding: 3px 8px;
+    width: 50%;
+    height: 35px !important;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    border: 1px solid #A9A9A9;
+}
+@media screen and (max-width: 768px ) {
+    .r123formselect{
+        width: 100%;
+    }
+    .sub-header table[data="transactionSummaryTable"], .sub-header table[data="billingAddressTable"], .sub-header table[data="balanceDueTable"] {
+        width: 90% !important;
+    }
+    form table[data="billingAddressTable"] tbody tr td {
+        display: block;
+        padding: 0 !important;
+    }
+}
+  .sub-header table[data="verifyTable"].form-table {
+    width: 90% !important;
+}
+</style>
+
+<!-- jQuery library --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!-- Latest compiled JavaScript --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script src="https://www.ushmm.org/a/j/advanced-certain-template-calendar.js"></script><script src="/accounts/register123/ushmm/main/events/natribdin0422-28898/ddfScript.js"></script>
+<script>
+$(document).ready(function(){
+  $('tr.section-header').each(function() {
+    if($($(this).next()[0]).children().children().children().children().children().children().hasClass('text')){
+      $($(this).next()[0]).addClass('sub-header');
+      $(this).addClass('no-border');
+    }
+  });
+  ddfCall('/accounts/register123/ushmm/main/events/natribdin0422-28898/ddf.csv');
+});
+</script>

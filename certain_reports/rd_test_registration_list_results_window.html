@@ -1,0 +1,1652 @@
+<html lang="en" style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+        <title>Planner's View | Certain: Registration List (Results Window)</title>
+	       <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.certain.com/8.1.12/assets/images/favicon.ico" rel="shortcut icon">
+        <link href="https://cdn.certain.com/8.1.12/assets/vendor/css/min/bootstrap_v3.4.1.css?v3.4.1" rel="stylesheet">
+        <link href="https://cdn.certain.com/8.1.12/assets/vendor/font-awesome/css/font-awesome.css?v4.7.0" rel="stylesheet"> 
+        <link href="https://cdn.certain.com/8.1.12/assets/vendor/css/select2.css" rel="stylesheet">
+        <link href="https://cdn.certain.com/8.1.12/assets/vendor/css/select2-bootstrap.css" rel="stylesheet">
+        <link href="https://cdn.certain.com/8.1.12/assets/js/lib/jquery/fullcalendar/fullcalendar.css?v1.4.9" rel="stylesheet">
+        <link href="https://cdn.certain.com/8.1.12/assets/js/lib/jquery/qtip/min/jquery.qtip.min.css?v3.0.3" rel="stylesheet">
+        <link href="https://cdn.certain.com/8.1.12/assets/css/jquery/minified/jquery-ui.min.css?v1.13.2" rel="stylesheet">
+        <link href="https://cdn.certain.com/8.1.12/assets/vendor/css/min/pnotify.custom.min.css?v=3.0.0" rel="stylesheet">
+        <link href="https://cdn.certain.com/8.1.12/assets/vendor/css/certain.css?v=8.1.12" rel="stylesheet">
+
+        <script async="" src="https://web-sdk.aptrinsic.com/api/aptrinsic.js?a=AP-0SB3KDU4MYSA-2"></script><script src="https://cdn.certain.com/8.1.12/assets/vendor/js/min/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/min/jquery-3.6.3.min.js"><\/script>')</script><script src="https://cdn.certain.com/8.1.12/assets/vendor/js/min/jquery-3.6.3.min.js"></script>
+        
+        <script src="https://cdn.certain.com/8.1.12/assets/vendor/js/certain/countrySelect.js"></script>
+		<script src="https://cdn.certain.com/8.1.12/assets/js/lib/jquery/jquery.placeholder.js"></script>
+        <script src="https://cdn.certain.com/8.1.12/assets/js/lib/moment.min.js?v2.29.4"></script>
+           
+		<script>
+			// added prototype method globally to safely parse JSON
+            JSON.safeParse = function (input, def) {
+                // Convert null to empty object
+                if (!input) {
+                    return def || {}; // we can either return empty object or null as it is here
+                } else if (Object.prototype.toString.call(input) === '[object Object]') {
+                    return input; // return input as it is since it is already an object
+                }
+                try {
+                    return JSON.parse(input);
+                } catch (e) {
+                    return def || {};
+                }
+            };
+		</script>
+    <link rel="stylesheet" type="text/css" href="https://web-sdk.aptrinsic.com/style.css?a=AP-0SB3KDU4MYSA-2"><style id="apt-widget-outer-style" type="text/css">.apt-widget{height:0;width:0}.apt-widget iframe{border-width:0;position:static;visibility:initial;margin:initial;background:initial;border:initial}.apt-widget .apt-widget-window{position:absolute;height:100%;width:100%;box-shadow:0 2px 4px 0 rgba(0,0,0,.2);-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;top:0;left:0}.apt-widget .apt-widget-icon-frame{height:60px;width:60px;border-width:0;overflow:hidden;box-shadow:0 2px 4px 0 rgba(0,0,0,.2);border-radius:50%}.apt-widget .dragging-element{position:fixed;top:auto!important;z-index:999999999;width:auto}.apt-widget .dragging-handle{position:absolute;width:100%;height:100%;z-index:99}.apt-widget .apt-widget-dragging-handle{background-color:transparent;border:none}.apt-widget .apt-widget-container{position:fixed;-webkit-border-radius:8px;-moz-border-radius:8px;border-style:none;min-height:136px;min-width:200px;max-width:calc(100vw - 110px);z-index:999999999;background-color:transparent;right:80px;bottom:80px}.apt-widget .window-fade-enter{height:350px;bottom:90px;opacity:.01}.apt-widget .window-fade-enter.window-fade-enter-active{opacity:1;bottom:100px;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}.apt-widget .window-fade-leave{opacity:1}.apt-widget .window-fade-leave.window-fade-leave-active{opacity:.01;bottom:90px;height:350px;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}.apt-widget .icon-fix{position:relative;top:2px}.apt-widget .apt-recommendation-bubble-frame{width:270px;position:fixed;height:fit-content;right:85px;bottom:20px;border-width:0;overflow:hidden;z-index:999999999}.apt-widget .apt-widget-badge-alert{border-radius:50%;text-align:center;border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.apt-widget .apt-widget-badge-alert.top-left{position:absolute;top:-3px;left:-3px}.apt-widget .apt-widget-badge-alert.top-right{position:absolute;top:-3px;right:-3px}.apt-widget .apt-widget-badge-alert.bottom-left{position:absolute;bottom:0;left:0}.apt-widget .apt-widget-badge-alert.bottom-right{position:absolute;bottom:0;right:0}</style></head>
+<body id="registration" style="height: 946px;">
+
+
+
+<div id="certainModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-body"><iframe src="about:blank" title="Certain Modal iFrame" id="certainModaliFrame"></iframe>
+    </div></div></div></div>
+
+    <div id="wrapper">    
+
+
+
+<br style="clear:both;">
+
+				
+			<script>
+				jQuery(document).ready(function() {
+					var $panelHeaders = $('.panel-heading');
+					if ($panelHeaders.length >= 3) {
+						$panelHeaders.each(function(index) {
+							$panelText = $panelHeaders[index].firstChild.textContent;
+							$('<li>').append(
+								$('<a>').attr('href','#' + $( this ).parent().attr('id') ).attr('class','quickscroll').append( $panelText )
+							).appendTo('#jumpMan')
+						});
+						$('#jumpto-nav').removeClass('hide');
+					}
+
+					
+				});
+			</script>
+		
+	
+	<div class="p1">
+		
+
+	<div class="alert alert-success" id="confirmation-stack" style="display:none;">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+		<p><span class="icon-confirmation"></span> 
+		<strong>Success:</strong> <span class="message"></span></p>
+	</div>
+
+
+	
+	<div class="alert alert-danger" id="error-stack" style="display:none;">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+		<p><span class="icon-error"></span>
+		<strong>Errors:</strong> <span class="errors"></span></p>
+	</div>	
+
+	
+	<div class="alert alert-warning" id="warning-stack" style="display:none;">
+	 	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+		<p><span class="icon-warning"></span> 
+		<strong>Warnings:</strong> <span class="warning"></span></p>
+	</div>	
+
+	</div>
+
+
+
+	
+	<form action="report.cfm?id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKacntID=915C0352-9409-45CF-A61E-BF85F7B47EF5&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" method="post" name="formReport" id="formReport" class="form-horizontal" role="form">
+		
+		
+			<input type="hidden" name="CSRFToken" value="63E7D3770267EA6065E1F9E9DBAD3C65C6F652639AB1244DA09A1B482EA15442">
+			
+		<div class="py1 mb1 container-fluid ">
+	
+<div class="container-fluid">
+	
+
+	
+<style>
+	i.agenda {
+	padding: 4px 22px;
+	background: url(/assets/images/user/icons/wzd_regAgendaSmall.gif) no-repeat 0 50%;
+	}
+	i.cal {
+	padding: 4px 20px;
+	background: url(https://cdn.certain.com/8.1.12/assets/images/certain/icon/calendarIcon.png) no-repeat 0 50%;
+	}
+	i.itinerary {
+	padding: 4px 20px;
+	background: url(https://cdn.certain.com/8.1.12/assets/images/certain/icon/iconS_itinerary.png) no-repeat 0 50%;
+	}
+
+	i {padding: 2px; }
+</style>
+
+<script language="javascript">
+function getValues(path)
+{
+	var checkBoxList = document.getElementsByName('lstRegId');
+	txt = "";
+	for(i=0;i<checkBoxList.length;i++)
+	{		
+		if (checkBoxList [i].checked == true)
+		{
+			txt = txt+checkBoxList [i].value+","
+		}
+	}	
+	
+	popup(path+'/wizard/nameBadge/index.cfm?calling_window=reports&PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827&regval='+txt+'&id=84C12B81-FA79-52D4-03D9-0383B29AA23B&PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&','wizard','840','580',0,0);return false;
+	
+	return false;
+}
+
+</script>
+
+<script>
+
+$(document).ready(
+
+	function() {
+
+		$("#chkSelectAll").show(); // show only "Select all" checkbox if DOM is completely loaded.
+
+		//".checkbox" change 
+		$('.rpt_checkbox').change(function(){ 
+			//uncheck "select all", if one of the listed rpt_checkbox item is unchecked
+			if(this.checked === false){ 
+			    $(".select_all").prop('checked', false); 	        
+		    } 
+
+		    //check "select all" if all rpt_checkbox items are checked
+		    if ($('.rpt_checkbox:checked').length == $('.rpt_checkbox').length ){
+		        $(".select_all").prop('checked', true);
+		    }
+		    /* update counter */
+			updateCount();
+	
+		});
+		
+		// detail onchange for a few seconds 
+		// setTimeout('enableSelectAll()', 3000); // Note: 6/12/2020 EV - comment this out as it chokes browser if rendering large datasets and create event listener to count items instead of expensive DOM manipulation.
+
+	});
+
+// Checkbox listener "select_all" to update total items on "badge-count" id selector. This event fires when the initial HTML document has been completely loaded 
+document.addEventListener("DOMContentLoaded", function (event) {
+	
+	var _selector = document.querySelector('.select_all'); 
+	_selector.addEventListener('change', function (event) {
+		if (_selector.checked) {
+			/* Update counter */
+			updateCount();
+		} else {		
+			/* reset counter to 0 */
+			$('#badge-count').text(0);
+		}
+	});
+	
+});	
+
+function updateCount(){ 
+	// var checkedCount = $('.rpt_checkbox:checked').not('.select_all').length; 
+	var checkedCount = document.querySelectorAll(".rpt_checkbox:checked").length; // return only selected checkbox
+	$('#badge-count').text(checkedCount);
+
+}
+
+</script>
+
+
+<script>
+
+
+	/* update window title + fix the table column headers*/
+	$(function(){
+	   
+	   window.document.title += ': Registration List (Results Window)';
+		
+	   var options = {
+		    widthFixed : true,
+		    showProcessing: true,
+		    headerTemplate : '{content}',
+
+		    widgets: [ 'stickyHeaders'],
+
+		    widgetOptions: {
+
+		      // extra class name added to the sticky header row
+		      stickyHeaders : '',
+		      stickyHeaders_offset : $('.navbar-fixed-top').height() + 5,
+		      stickyHeaders_cloneId : '-sticky',
+		      stickyHeaders_addResizeEvent : true,
+		      stickyHeaders_includeCaption : true,
+		      stickyHeaders_zIndex : 2,
+		      stickyHeaders_attachTo : null,
+		    }
+		  };
+
+	  $("#reportResults").tablesorter(options);
+
+
+	});
+	function toggleButton(){
+		var badgeTemplateId = document.formReport.badgeMassAction.options[document.formReport.badgeMassAction.selectedIndex].value;
+		var arrBadgeTempId = badgeTemplateId.split("_");
+		if(arrBadgeTempId[1] != '' && badgeTemplateId != ''){
+			document.getElementById('badge-pdf-action-go').style.display = "none";
+			document.getElementById('badge-download-action-go').style.display = "inline-block";
+			document.getElementById('badge-print-action-go').style.display = "none";
+		}
+		else{
+			document.getElementById('badge-pdf-action-go').style.display = "inline-block";
+			document.getElementById('badge-download-action-go').style.display = "none";
+			document.getElementById('badge-print-action-go').style.display = "inline-block";
+		}
+	}
+
+
+</script>
+
+	<div class="navbar navbar-default navbar-fixed-top bx5-lblue" role="navigation">
+      <div class="container-fluid">
+		<div class="row certain-blue-bg p1">
+			<div class="navbar-brand"><span class="color-white">Registration List (Results Window)</span></div>
+		</div>
+		<div class="row certain-lgray-bg">
+		<div class="navbar-collapse collapse">
+	    	<ul class="nav navbar-nav" role="menubar" aria-label="Report Utilities">
+	            <li class="dropdown" role="menuitem">
+	              <a href="#" role="navigation" title="Actions" aria-label="Actions" class="dropdown-toggle color-black" data-toggle="dropdown">Actions <i class="fa fa-caret-down" aria-hidden="true" aria-role="presentation"></i></a>
+	              <ul class="dropdown-menu">
+	                
+					
+					  		<li><a href="#" onclick="
+	document.formReport.action = document.formReport.action + '&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+	if(jQuery('[name=&quot;lstRegId&quot;]').is(':checked')) {
+		var doAction = true;
+	} else {
+		var doAction = confirm('You have not selected any records which will result in ALL records being included in the email. Select OK to proceed');
+	};
+
+	if(doAction) {
+	if(window.opener){
+				window.opener.name='mainWindow';
+				window.opener.focus();
+	} else { 
+		window.parent.name='mainWindow';
+		window.parent.focus();
+	};
+
+	if(doAction) {
+		if(window.opener){
+					window.opener.name='mainWindow';
+					window.opener.focus();
+		} else { 
+			window.parent.name='mainWindow';
+			window.parent.focus();
+		};
+		document.formReport.target='mainWindow';
+		document.formReport.submitForm.value='Compose Email';
+		document.formReport.submit();
+		return false;
+	};
+	};
+" title="Compose Email" data-toggle="tooltip" data-trigger="hover" data-placement="right" data-original-title="Send an email to a group of records"><i class="fa fa-envelope-square"></i> Compose Email</a></li>
+						
+			<li><a href="#" onclick="
+	document.formReport.action = document.formReport.action + '&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+	popup('/user/wizard/registration/agenda/index.cfm?id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;','wizard','840','580',0,0);
+	document.formReport.submitForm.value='Manage Agendas';
+	document.formReport.target='wizard';
+	document.formReport.submit();
+	return false;
+" title="Manage Agendas" data-toggle="tooltip" data-trigger="hover" data-placement="right" data-original-title="Assign/remove agenda items"><i class="fa fa-list-ol"></i> Manage Agendas</a></li>
+		
+			<li><a href="#" onclick="
+	var lengthOfCheckBox = document.getElementsByName('lstRegId').length;
+	if(lengthOfCheckBox > 1 ){
+		document.formReport.action = document.formReport.action + '&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+		document.formReport.submitForm.value='intineraryPDF';
+	} else {
+		
+		document.location = '/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;lstWarnings=There%20is%20no%20registration%20to%20generate%20an%20itinerary%2E';
+		return false;
+	}
+	document.formReport.submit();								
+	return false;
+" title="Print Itinerary" data-toggle="tooltip" data-trigger="hover" data-placement="right" data-original-title="Generate Itinerary"><i class="fa fa-calendar"></i> Print Itinerary</a></li>
+		
+				</ul>
+            </li>
+            
+            
+	            <li class="dropdown" role="menuitem">
+	              <a href="#" title="Export Formats" aria-label="Export Formats" class="dropdown-toggle color-black" data-toggle="dropdown">Export <i class="fa fa-caret-down" aria-hidden="true" aria-role="presentation"></i></a>
+					<ul class="dropdown-menu drill-down">				
+					
+				      
+			<li><a href="#" onclick="
+	document.formReport.action = document.formReport.action + '&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+	document.formReport.submitForm.value='print_html';
+	document.formReport.target='_blank';
+	document.formReport.submit();
+	return false;
+" title="Printable HTML" data-toggle="tooltip" data-trigger="hover" data-placement="right" data-original-title="Export to Printable HTML"><i class="fa fa-file-code-o"></i> Printable HTML</a></li>
+		
+			<li><a href="#" onclick="
+	document.formReport.action = document.formReport.action + '&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+	document.formReport.submitForm.value='pdf';
+	document.formReport.submit();
+	return false;
+" title="Acrobat" data-toggle="tooltip" data-trigger="hover" data-placement="right" data-original-title="Export to Adobe Acrobat PDF"><i class="fa fa-file-pdf-o"></i> Acrobat</a></li>
+		
+			<li><a href="#" onclick="
+	document.formReport.action = document.formReport.action + '&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+	document.formReport.submitForm.value='print_excel';
+	document.formReport.submit();
+	return false;
+" title="Printable Excel" data-toggle="tooltip" data-trigger="hover" data-placement="right" data-original-title="Export to Microsoft Excel"><i class="fa fa-file-excel-o"></i> Printable Excel</a></li>
+		
+			<li><a href="#" onclick="
+	document.formReport.action = document.formReport.action + '&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+	document.formReport.submitForm.value='excel';
+	document.formReport.submit();
+	return false;
+" title="Excel Spreadsheet" data-toggle="tooltip" data-trigger="hover" data-placement="right" data-original-title="Export to Microsoft Excel"><i class="fa fa-file-excel-o"></i> Excel Spreadsheet</a></li>
+		
+			<li><a href="#" onclick="
+	document.formReport.action = document.formReport.action + '&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+	document.formReport.submitForm.value='csv';
+	document.formReport.submit();
+	return false;
+" title="Comma Delimited" data-toggle="tooltip" data-trigger="hover" data-placement="right" data-original-title="Export to Comma Separated Values Text File"><i class="fa fa-file-o"></i> Comma Delimited</a></li>
+		
+			<li><a href="#" onclick="
+	document.formReport.action = document.formReport.action + '&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+	document.formReport.submitForm.value='tsv';
+	document.formReport.submit();
+	return false;
+" title="Tab Delimited Text" data-toggle="tooltip" data-trigger="hover" data-placement="right" data-original-title="Export to Tab Delimited Text File"><i class="fa fa-file-text-o"></i> Tab Delimited Text</a></li>
+		
+			        </ul>
+	            </li>
+	        
+			<li class="dropdown" role="menuitem">
+              <a href="#" title="Last Name Filter" aria-label="Last Name Filter" class="dropdown-toggle color-black" data-toggle="dropdown">Filter <i class="fa fa-caret-down" aria-hidden="true" aria-role="presentation"></i>  </a>
+				<ul class="dropdown-menu drill-down-narrow dropdown-overflow panel-fixed-200">				
+					<li class="dropdown-header">Last Name</li>
+              		<li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=A&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter A...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter A...">A</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=B&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter B...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter B...">B</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=C&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter C...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter C...">C</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=D&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter D...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter D...">D</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=E&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter E...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter E...">E</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=F&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter F...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter F...">F</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=G&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter G...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter G...">G</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=H&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter H...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter H...">H</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=I&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter I...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter I...">I</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=J&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter J...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter J...">J</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=K&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter K...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter K...">K</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=L&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter L...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter L...">L</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=M&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter M...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter M...">M</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=N&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter N...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter N...">N</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=O&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter O...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter O...">O</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=P&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter P...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter P...">P</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=Q&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter Q...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter Q...">Q</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=R&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter R...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter R...">R</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=S&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter S...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter S...">S</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=T&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter T...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter T...">T</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=U&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter U...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter U...">U</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=V&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter V...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter V...">V</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=W&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter W...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter W...">W</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=X&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter X...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter X...">X</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=Y&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter Y...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter Y...">Y</a></li> <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=Z&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with the letter Z...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with the letter Z...">Z</a></li> 
+	                        <li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;lastNameFilterValue=other&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view registrations whose last names begin with a non-alphabetical character...'; return true;" onmouseout="self.status=''; return true;" title="Click to view registrations whose last names begin with a non-alphabetical character...">Other</a></li>
+	                    
+                    
+					<li><a href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;lastNameFilterValue=&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to view all registrations...'; return true;" onmouseout="self.status=''; return true;" title="Click to view all registrations...">All</a></li>
+				</ul>
+		
+			
+				</li><li class="pt1">
+					
+							
+		<select aria-label="Select a Mass Action Below" role="menu" name="massAction" id="massAction" class="form-control " style="width:275px;display:inline-block;" size="1">
+			<option value="" role="menuitem">Select a Mass Action Below</option>
+			
+				<optgroup label="Set Standard Registration Properties">
+					
+								<option value="reg_is_confirmed=1" title="Mark as complete">
+									Mark as complete 
+								</option>
+							
+								<option value="reg_is_confirmed=0" title="Mark as not complete (&quot;Incomplete&quot;)">
+									Mark as not complete ("Incomplete") 
+								</option>
+							
+								<option value="reg_is_badge_printed=1" title="Set badges printed">
+									Set badges printed 
+								</option>
+							
+								<option value="reg_is_badge_printed=0" title="Unset badges printed">
+									Unset badges printed 
+								</option>
+							
+								<option value="reg_do_followup=1" title="Add to &quot;To Do&quot; list">
+									Add to "To Do" list 
+								</option>
+							
+								<option value="reg_do_followup=0" title="Remove from &quot;To Do&quot; list">
+									Remove from "To Do" list 
+								</option>
+							
+								<option value="reg_is_test=1" title="Mark as &quot;test&quot;">
+									Mark as "test" 
+								</option>
+							
+								<option value="reg_is_test=0" title="Mark as &quot;live&quot;">
+									Mark as "live" 
+								</option>
+							
+								<option value="reg_is_active=0" title="Delete from database">
+									Delete from database 
+								</option>
+							
+								<option value="reg_is_active=1" title="Restore from database">
+									Restore from database 
+								</option>
+							
+				</optgroup>
+				
+				<optgroup label="Change Registration Status">
+					
+								<option value="reg_frn_reg_sts_id=2474" title="Change status to In Person - Registered">
+									Change status to In Person - Registered 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=2476" title="Change status to In Person VIP - Registered">
+									Change status to In Person VIP - Registered 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=2473" title="Change status to Virtual - Registered">
+									Change status to Virtual - Registered 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=2475" title="Change status to Duplicate">
+									Change status to Duplicate 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=2477" title="Change status to Staff">
+									Change status to Staff 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=0" title="Change Status to New">
+									Change Status to New 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=1" title="Change Status to Requested Invitation">
+									Change Status to Requested Invitation 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=2" title="Change Status to Waitlist Hold">
+									Change Status to Waitlist Hold 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=3" title="Change Status to Invited">
+									Change Status to Invited 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=4" title="Change Status to Request Denied">
+									Change Status to Request Denied 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=5" title="Change Status to Invitation Sent">
+									Change Status to Invitation Sent 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=6" title="Change Status to Pre-Registered">
+									Change Status to Pre-Registered 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=7" title="Change Status to Declined Invitation">
+									Change Status to Declined Invitation 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=8" title="Change Status to Cancelled">
+									Change Status to Cancelled 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=9" title="Change Status to No-show">
+									Change Status to No-show 
+								</option>
+							
+								<option value="reg_frn_reg_sts_id=10" title="Change Status to Attended">
+									Change Status to Attended 
+								</option>
+							
+				</optgroup>
+				
+				<optgroup label="Change Attendee Type &amp; Fee">
+					
+								<option value="reg_frn_reg_cat_id=9399" title="Set Attendee Type to In Person Attendee">
+									Set Attendee Type to In Person Attendee 
+								</option>
+							
+								<option value="reg_frn_reg_cat_id=9403" title="Set Attendee Type to In Person VIP Attendee">
+									Set Attendee Type to In Person VIP Attendee 
+								</option>
+							
+								<option value="reg_frn_reg_cat_id=9401" title="Set Attendee Type to Virtual Attendee">
+									Set Attendee Type to Virtual Attendee 
+								</option>
+							
+								<option value="reg_frn_reg_cat_id=9398" title="Set Attendee Type to Speaker">
+									Set Attendee Type to Speaker 
+								</option>
+							
+								<option value="reg_frn_reg_cat_id=9397" title="Set Attendee Type to Staff">
+									Set Attendee Type to Staff 
+								</option>
+							
+								<option value="reg_frn_reg_cat_id=9400" title="Set Attendee Type to Cancellation">
+									Set Attendee Type to Cancellation 
+								</option>
+							
+								<option value="reg_frn_reg_cat_id=9402" title="Set Attendee Type to Duplicate">
+									Set Attendee Type to Duplicate 
+								</option>
+							
+				</optgroup>
+				
+				<optgroup label="Print Invoices - Event Templates">
+					
+								<option value="inv_id=306" title="Default Invoice Template">
+									Default Invoice Template 
+								</option>
+							
+								<option value="inv_id=313" title="RD Test 09/12">
+									RD Test 09/12 
+								</option>
+							
+				</optgroup>
+				
+				<optgroup label="Print Invoices - Account Templates">
+					
+								<option value="inv_id=310" title="RD TEST Standard Invoice">
+									RD TEST Standard Invoice 
+								</option>
+							
+								<option value="inv_id=2" title="Standard Invoice">
+									Standard Invoice 
+								</option>
+							
+				</optgroup>
+					
+		</select>
+		
+	
+	<script>
+		/* clean up the select list with empty opt groups */
+		$(function() {
+			var mname = "massAction";
+			$('#massAction optgroup').each(function () {
+			  if (! $(this).children().length) {
+			        $(this).hide();
+			  }       
+			});
+
+			$('#cmdAssign').click(function() { 
+				var doAction = false;
+				var inpObj = document.getElementById('lstEventTags');
+	
+				if (!inpObj.checkValidity()) { 
+					document.getElementById('lblAssignedTags').innerHTML = inpObj.validationMessage;
+					$('#lblAssignedTags').attr('class', 'errorField');
+					$('#lblAssignedTags').show();
+					return false;
+				} else { 
+						var doAction = true;
+				}
+
+				window.opener.focus();
+				window.name = 'mainWindow';
+
+				if(doAction) {
+					$(this).prop('disabled',true).val('Running...');
+					document.formReport.action = document.formReport.action + '&PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+					document.formReport.target=window.name;
+					document.formReport.submitForm.value='go';
+					document.formReport.submit();
+				};
+
+		});
+		
+			$('#lstEventTags').click(function() { 
+				$('#lblAssignedTags').hide();
+			});
+
+			// Function to Assign event tags to event
+			$('#'+mname).change(function() {
+				massActionValue = $('#'+mname).val(); 
+				if(massActionValue.indexOf('optSetEventTags')  != -1){ 
+					$('#modalTagAssignment').modal('show');
+				}else{
+					$('#modalTagAssignment').modal('hide');
+					$('#lstEventTags').val(''); // clear tags
+				}
+		});
+
+
+		});
+	</script>
+	
+
+			      	<input type="button" role="button" class="btn btn-default" id="mass-action-go" value="Go" aria-label="Run mass action" onclick="
+	var thisAction = document.formReport.massAction.options[document.formReport.massAction.selectedIndex].value;
+	var countOfRegSelected = 0;
+	var countOfRegSelected = jQuery('input[name=lstRegId]:checked').length;
+	if(thisAction.indexOf('hot_room_id') > -1 | thisAction.indexOf('cancel_reservation') > -1 | thisAction.indexOf('reg_hot_is_sharing') > -1) {
+		var doAction = confirm('Warning, this mass action will be applied to all room reservations on this registration. Do you wish to proceed?');
+	} else {
+		var doAction = true;
+	};
+		
+	if(thisAction.indexOf('reg_is_active') > -1 &amp; countOfRegSelected > 250) {
+		alert('Only first 250 records will be processed.');
+	};
+
+	if(thisAction.indexOf('subscriber_list_id') > -1) {
+		window.opener.name = 'mainWindow';
+		window.opener.focus();
+	} else {
+		window.name = 'mainWindow';
+	};
+
+	if(doAction) {
+		$(this).prop('disabled',true).val('Running...');
+		document.formReport.action = document.formReport.action + '&amp;PKRptId=D97C99F9-3F1F-47E5-9D48-267E8D752827'
+		document.formReport.target=window.name;
+		document.formReport.submitForm.value='go';
+		document.formReport.submit();
+	};
+	
+	return false;
+">
+			    </li>
+			
+			</ul>
+        </div><!--/.nav-collapse -->
+      	</div><!--/.nav-row -->
+      </div>
+	</div>
+
+
+<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation" style="border-top: 1px solid #CCC;">
+  <div id="controlbar" class="container container-full">
+	<div class="col-lg-12">
+	  	<div class="center">
+				</div><table class="forms auto-width pull-left">
+	  		<tbody><tr>
+	  		
+			<td>Records 1 to 7 of 7 are shown
+				<div><span class="badge color-white" id="badge-count">0</span> Items are selected</div>
+				</td>
+			
+			
+			</tr>
+		</tbody></table>
+		<table class="forms auto-width pull-right">
+			<tbody><tr>
+				<td><label for="searchRowsPerPage">Rows/Page</label></td>
+				<td><input type="number" role="textbox" aria-label="Search Row Per Page" name="searchRowsPerPage" id="searchRowsPerPage" value="250" size="4" maxlength="5" min="0" max="10000" class="form-control"></td>
+				<td><label for="searchStartRow">Start Row</label></td>
+				<td><input type="number" role="textbox" aria-label="Search Start Row" name="searchStartRow" id="searchStartRow" value="1" size="4" maxlength="5" min="0" max="10000" class="form-control"></td>
+				<td><label for="searchMaxRows">Max Records</label></td>
+				<td><input type="number" role="textbox" aria-label="Search Max Row" name="searchMaxRows" id="searchMaxRows" value="10000" size="6" maxlength="5" min="0" max="10000" class="form-control"></td>
+				<td><input type="submit" value="Display" class="btn btn-default" onclick="document.formReport.submitForm.value='';"></td>
+				
+			</tr>
+			</tbody></table>
+	</div>
+</div>
+</div><!--/.container -->
+		
+</div>	
+
+<input type="hidden" name="submitForm" value="">
+<input type="hidden" name="freshURL" value="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827">
+
+
+	<input type="hidden" name="orderBy" value="dteRegDateRegistered">
+
+	<input type="hidden" name="sortOrder" value="desc">
+
+	<script>
+		$('.dropdown-menu select').click(function (e) {
+			e.stopPropagation();
+		});
+	</script>
+	
+
+
+
+<script>flgDoNotEnableDisableOnMessage = true;</script>
+
+
+<br>
+
+<div class="container-fluid pl0 pr0">
+<table class="table table-striped table-hover tablesorter tablesorter-default hasStickyHeaders" id="reportResults"><colgroup><col style="width: 2.8%;"><col style="width: 8%;"><col style="width: 4.2%;"><col style="width: 4.7%;"><col style="width: 4.8%;"><col style="width: 7.8%;"><col style="width: 4.3%;"><col style="width: 2.7%;"><col style="width: 17.7%;"><col style="width: 13.8%;"><col style="width: 4.7%;"><col style="width: 6.1%;"><col style="width: 5.3%;"></colgroup>
+	<thead style="background-color:#FFF;">
+	<tr class="tablesorter-headerRow">
+		<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" data-column="0" tabindex="0" unselectable="on" style="user-select: none;"><div class="tablesorter-header-inner">
+			<div class="checkbox" id="chkSelectAll" style="">
+				<label class="strong no-padding">
+					
+		<script src="https://cdn.certain.com/8.1.12/assets/js/checkbox/checkUncheck.js" type="text/javascript"></script>
+		<script src="https://cdn.certain.com/8.1.12/assets/js/element/enableDisableFormElement.js" type="text/javascript"></script>
+		
+			 	<input type="checkbox" aria-label="Check-Uncheck Record" onclick="rptCheckUncheck(this.checked,'formReport','lstRegId');rptEnableDisableFormElement(this.checked,'formReport','lstSecondayFieldId');" class="select_all">
+			 	Row
+				</label>
+			</div>
+		</div></th>
+		
+		
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="1" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Number Registered
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=intEvtNumberRegistered&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Number Registered in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="2" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Reg Date
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=dteRegDateRegistered&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Reg Date in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort-desc" aria-label="Sort DESC"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="3" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Last Name
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Last Name in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="4" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> First Name
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProFName&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort First Name in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="5" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Email
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProEMail&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Email in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="6" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> City
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProAdrCity&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort City in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="7" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> State
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProAdrState&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort State in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="8" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Do you belong to any of the following group(s)?
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProAnsField04&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Do you belong to any of the following group(s)? in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="9" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Special Requests | Accommodations
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtRegAnsField04&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Special Requests | Accommodations in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="10" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Reg Status
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtRegRstLabel&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Reg Status in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="11" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Attendee Type
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtRegRegCatCode&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Attendee Type in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="12" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Portfolio_ID
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProAnsField03&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Portfolio_ID in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+	</tr>
+	</thead>
+
+
+
+
+<tbody>
+
+    <tr>
+		<td class="cursor-pointer" nowrap="">
+			
+
+
+
+			
+
+	                    <input type="checkbox" role="checkbox" class="rpt_checkbox" aria-label="Encoded Registration Id 0x119791023644" name="lstRegId" id="0x119791023644" value="0x119791023644" onclick="secondaryFieldId1.disabled=!this.checked;">
+	                    
+	                    <input type="hidden" name="lstSecondayFieldId" value="" disabled="" id="secondaryFieldId1">
+	        		
+                
+                	<a aria-label="Report Link" onclick="if(window.opener){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;" href="#" onmouseover="self.status='Click to view the details for this registration...'; return true;" onmouseout="self.status=''; return true;">1</a>
+                
+		</td>
+		
+		
+			<td class="cursor-pointer colintEvtNumberRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				5 
+			</td>
+		
+			<td class="cursor-pointer coldteRegDateRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				9/19/2023 8:09 AM 
+			</td>
+		
+			<td class="cursor-pointer coltxtProLName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Daniels 
+			</td>
+		
+			<td class="cursor-pointer coltxtProFName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Rob 
+			</td>
+		
+			<td class="cursor-pointer coltxtProEMail" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				rdaniels@ushmm.org 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrCity" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Lincoln 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrState" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				NE 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Educator/Instructor 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRstLabel" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Virtual - Registered 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRegCatCode" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Virtual Attendee 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField03" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=2FF302B8-3CE7-49EA-B161-20960A189D46&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+	</tr>
+
+    <tr>
+		<td class="cursor-pointer" nowrap="">
+			
+
+
+
+			
+
+	                    <input type="checkbox" role="checkbox" class="rpt_checkbox" aria-label="Encoded Registration Id 0x11979235ad42" name="lstRegId" id="0x11979235ad42" value="0x11979235ad42" onclick="secondaryFieldId2.disabled=!this.checked;">
+	                    
+	                    <input type="hidden" name="lstSecondayFieldId" value="" disabled="" id="secondaryFieldId2">
+	        		
+                
+                	<a aria-label="Report Link" onclick="if(window.opener){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;" href="#" onmouseover="self.status='Click to view the details for this registration...'; return true;" onmouseout="self.status=''; return true;">2</a>
+                
+		</td>
+		
+		
+			<td class="cursor-pointer colintEvtNumberRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				5 
+			</td>
+		
+			<td class="cursor-pointer coldteRegDateRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				9/5/2023 10:56 AM 
+			</td>
+		
+			<td class="cursor-pointer coltxtProLName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Smith 
+			</td>
+		
+			<td class="cursor-pointer coltxtProFName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Krissy's Guest 
+			</td>
+		
+			<td class="cursor-pointer coltxtProEMail" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				KSmith@noemail.org 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrCity" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Washington 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrState" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				DC 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtRegAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRstLabel" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				New 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRegCatCode" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField03" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=36598136-33DD-46FB-BBA3-3B99D9ACE2E8&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+	</tr>
+
+    <tr>
+		<td class="cursor-pointer" nowrap="">
+			
+
+
+
+			
+
+	                    <input type="checkbox" role="checkbox" class="rpt_checkbox" aria-label="Encoded Registration Id 0x11979216c428" name="lstRegId" id="0x11979216c428" value="0x11979216c428" onclick="secondaryFieldId3.disabled=!this.checked;">
+	                    
+	                    <input type="hidden" name="lstSecondayFieldId" value="" disabled="" id="secondaryFieldId3">
+	        		
+                
+                	<a aria-label="Report Link" onclick="if(window.opener){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;" href="#" onmouseover="self.status='Click to view the details for this registration...'; return true;" onmouseout="self.status=''; return true;">3</a>
+                
+		</td>
+		
+		
+			<td class="cursor-pointer colintEvtNumberRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				5 
+			</td>
+		
+			<td class="cursor-pointer coldteRegDateRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				9/5/2023 10:56 AM 
+			</td>
+		
+			<td class="cursor-pointer coltxtProLName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Parker 
+			</td>
+		
+			<td class="cursor-pointer coltxtProFName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Krissy 
+			</td>
+		
+			<td class="cursor-pointer coltxtProEMail" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				kparker@noemail.org 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrCity" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Washington 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrState" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				DC 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Student 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Wheel Chair access 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRstLabel" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				In Person - Registered 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRegCatCode" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				In Person Attendee 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField03" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=61BF3820-344B-4709-AC92-6D3B4C61BC94&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+	</tr>
+
+    <tr>
+		<td class="cursor-pointer" nowrap="">
+			
+
+
+
+			
+
+	                    <input type="checkbox" role="checkbox" class="rpt_checkbox" aria-label="Encoded Registration Id 0x119791405a10" name="lstRegId" id="0x119791405a10" value="0x119791405a10" onclick="secondaryFieldId4.disabled=!this.checked;">
+	                    
+	                    <input type="hidden" name="lstSecondayFieldId" value="" disabled="" id="secondaryFieldId4">
+	        		
+                
+                	<a aria-label="Report Link" onclick="if(window.opener){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;" href="#" onmouseover="self.status='Click to view the details for this registration...'; return true;" onmouseout="self.status=''; return true;">4</a>
+                
+		</td>
+		
+		
+			<td class="cursor-pointer colintEvtNumberRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				5 
+			</td>
+		
+			<td class="cursor-pointer coldteRegDateRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				9/5/2023 10:54 AM 
+			</td>
+		
+			<td class="cursor-pointer coltxtProLName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Last Name 
+			</td>
+		
+			<td class="cursor-pointer coltxtProFName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Guest 1 
+			</td>
+		
+			<td class="cursor-pointer coltxtProEMail" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrCity" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrState" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtRegAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRstLabel" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				New 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRegCatCode" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField03" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=95F581A1-C58D-420F-A3F4-0CCC3A7F98E7&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+	</tr>
+
+    <tr>
+		<td class="cursor-pointer" nowrap="">
+			
+
+
+
+			
+
+	                    <input type="checkbox" role="checkbox" class="rpt_checkbox" aria-label="Encoded Registration Id 0x1197908323db" name="lstRegId" id="0x1197908323db" value="0x1197908323db" onclick="secondaryFieldId5.disabled=!this.checked;">
+	                    
+	                    <input type="hidden" name="lstSecondayFieldId" value="" disabled="" id="secondaryFieldId5">
+	        		
+                
+                	<a aria-label="Report Link" onclick="if(window.opener){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;" href="#" onmouseover="self.status='Click to view the details for this registration...'; return true;" onmouseout="self.status=''; return true;">5</a>
+                
+		</td>
+		
+		
+			<td class="cursor-pointer colintEvtNumberRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				5 
+			</td>
+		
+			<td class="cursor-pointer coldteRegDateRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				9/5/2023 10:54 AM 
+			</td>
+		
+			<td class="cursor-pointer coltxtProLName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Owusu 
+			</td>
+		
+			<td class="cursor-pointer coltxtProFName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Amma Test 
+			</td>
+		
+			<td class="cursor-pointer coltxtProEMail" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				aowusu@ushmm.org 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrCity" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Washington 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrState" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				DC 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Student 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRstLabel" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Virtual - Registered 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRegCatCode" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Virtual Attendee 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField03" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=E5FE370A-83BA-4F59-8868-9FA49FEA9554&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+	</tr>
+
+    <tr>
+		<td class="cursor-pointer" nowrap="">
+			
+
+
+
+			
+
+	                    <input type="checkbox" role="checkbox" class="rpt_checkbox" aria-label="Encoded Registration Id 0x119791219e06" name="lstRegId" id="0x119791219e06" value="0x119791219e06" onclick="secondaryFieldId6.disabled=!this.checked;">
+	                    
+	                    <input type="hidden" name="lstSecondayFieldId" value="" disabled="" id="secondaryFieldId6">
+	        		
+                
+                	<a aria-label="Report Link" onclick="if(window.opener){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;" href="#" onmouseover="self.status='Click to view the details for this registration...'; return true;" onmouseout="self.status=''; return true;">6</a>
+                
+		</td>
+		
+		
+			<td class="cursor-pointer colintEvtNumberRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				5 
+			</td>
+		
+			<td class="cursor-pointer coldteRegDateRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtProLName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Parker 
+			</td>
+		
+			<td class="cursor-pointer coltxtProFName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Chrissy 
+			</td>
+		
+			<td class="cursor-pointer coltxtProEMail" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				kparker@noemail.org 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrCity" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Washington 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrState" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				DC 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Student 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Wheel Chair access 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRstLabel" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				In Person - Registered 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRegCatCode" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				In Person Attendee 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField03" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=6BDE5E82-35CF-4C36-B83D-36359AF2D72B&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+	</tr>
+
+    <tr>
+		<td class="cursor-pointer" nowrap="">
+			
+
+
+
+			
+
+	                    <input type="checkbox" role="checkbox" class="rpt_checkbox" aria-label="Encoded Registration Id 0x12016665918a" name="lstRegId" id="0x12016665918a" value="0x12016665918a" onclick="secondaryFieldId7.disabled=!this.checked;">
+	                    
+	                    <input type="hidden" name="lstSecondayFieldId" value="" disabled="" id="secondaryFieldId7">
+	        		
+                
+                	<a aria-label="Report Link" onclick="if(window.opener){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;" href="#" onmouseover="self.status='Click to view the details for this registration...'; return true;" onmouseout="self.status=''; return true;">7</a>
+                
+		</td>
+		
+		
+			<td class="cursor-pointer colintEvtNumberRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				5 
+			</td>
+		
+			<td class="cursor-pointer coldteRegDateRegistered" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtProLName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Sherman 
+			</td>
+		
+			<td class="cursor-pointer coltxtProFName" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Rob 
+			</td>
+		
+			<td class="cursor-pointer coltxtProEMail" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				rdaniels@ushmm.org 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrCity" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Parsippany 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAdrState" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				NJ 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				Educator/Instructor,Student 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegAnsField04" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRstLabel" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				In Person - Registered 
+			</td>
+		
+			<td class="cursor-pointer coltxtRegRegCatCode" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				In Person Attendee 
+			</td>
+		
+			<td class="cursor-pointer coltxtProAnsField03" onclick="if(window.opener){if(window.opener.document.readyState = 'complete'){window.opener.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.opener.focus();}}else{window.parent.location.href='../registration/index.cfm?varPage=overview&amp;pkRegId=1C52CF5F-AABF-4E94-8C20-37D1491BC71D&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2';window.parent.focus();};return false;">				
+				
+				
+			</td>
+		
+	</tr>
+
+</tbody>
+</table><table class="table table-striped table-hover tablesorter tablesorter-default containsStickyHeaders" id="reportResults-sticky" style="position: fixed; margin: 0px; top: 115px; left: 0px; visibility: hidden; z-index: 2; height: 0px; width: 0px; padding: 0px; border: 0px;"><colgroup><col style="width: 2.8%;"><col style="width: 8%;"><col style="width: 4.2%;"><col style="width: 4.7%;"><col style="width: 4.8%;"><col style="width: 7.8%;"><col style="width: 4.3%;"><col style="width: 2.7%;"><col style="width: 17.7%;"><col style="width: 13.8%;"><col style="width: 4.7%;"><col style="width: 6.1%;"><col style="width: 5.3%;"></colgroup>
+	<thead style="background-color:#FFF;" class="tablesorter-stickyHeader">
+	<tr class="tablesorter-headerRow">
+		<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" data-column="0" tabindex="0" unselectable="on" style="user-select: none;"><div class="tablesorter-header-inner">
+			<div class="checkbox" id="chkSelectAll" style="">
+				<label class="strong no-padding">
+					
+		<script src="https://cdn.certain.com/8.1.12/assets/js/checkbox/checkUncheck.js" type="text/javascript"></script>
+		<script src="https://cdn.certain.com/8.1.12/assets/js/element/enableDisableFormElement.js" type="text/javascript"></script>
+		
+			 	<input type="checkbox" aria-label="Check-Uncheck Record" onclick="rptCheckUncheck(this.checked,'formReport','lstRegId');rptEnableDisableFormElement(this.checked,'formReport','lstSecondayFieldId');" class="select_all">
+			 	Row
+				</label>
+			</div>
+		</div></th>
+		
+		
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="1" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Number Registered
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=intEvtNumberRegistered&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Number Registered in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="2" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Reg Date
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=dteRegDateRegistered&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Reg Date in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort-desc" aria-label="Sort DESC"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="3" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Last Name
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProLName&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Last Name in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="4" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> First Name
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProFName&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort First Name in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="5" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Email
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProEMail&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Email in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="6" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> City
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProAdrCity&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort City in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="7" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> State
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProAdrState&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort State in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="8" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Do you belong to any of the following group(s)?
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProAnsField04&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Do you belong to any of the following group(s)? in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="9" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Special Requests | Accommodations
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtRegAnsField04&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Special Requests | Accommodations in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="10" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Reg Status
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtRegRstLabel&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Reg Status in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="11" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Attendee Type
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtRegRegCatCode&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Attendee Type in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+				<th class="{sorter: false} tablesorter-header sorter-false" nowrap="" style="text-indent: 0px; user-select: none;" data-column="12" tabindex="0" unselectable="on"><div class="tablesorter-header-inner"> Portfolio_ID
+				<a aria-label="Sort" href="/user/reports/report.cfm?&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;id=84C12B81-FA79-52D4-03D9-0383B29AA23B&amp;PKevtID=261FAAFE%2D8C3F%2D48CA%2DB612%2D6F7CC4C952B2&amp;PKacntID=915C0352%2D9409%2D45CF%2DA61E%2DBF85F7B47EF5&amp;submitForm=yes&amp;PKrptID=D97C99F9-3F1F-47E5-9D48-267E8D752827&amp;searchStartRow=1&amp;searchRowsPerPage=250&amp;searchMaxRows=10000&amp;orderBy=txtProAnsField03&amp;sortOrder=ASC&amp;&amp;PKevtID=261FAAFE-8C3F-48CA-B612-6F7CC4C952B2" onmouseover="self.status='Click to sort Portfolio_ID in ascending (A-->Z) order...'; return true;" onmouseout="self.status=''; return true;">
+					
+						<i class="tablesorter-icon fa fa-sort" aria-label="=&quot;Sort&quot;"></i>
+					
+				</a>
+			</div></th>
+			
+	</tr>
+	</thead>
+
+
+
+
+
+</table>
+</div>
+</div>
+
+<input type="hidden" name="lstRegId" value="">
+
+	
+	<input type="hidden" id="templatesToCheck" name="templatesToCheck" value="/r123_includes/user/reports/massaction/save_mass_action.cfm">
+	<input type="hidden" id="rpt_name" name="rpt_name" value="Registration List (Results Window)">
+	<input type="hidden" id="PKRptID" name="PKRptID" value="D97C99F9-3F1F-47E5-9D48-267E8D752827">
+	<input type="hidden" id="flgNoProcessAdvFilters" name="flgNoProcessAdvFilters" value="false">
+</form></div>
+
+		
+	
+	
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var screenHeight = $(window).height();
+    jQuery('#registration').css('height', screenHeight + 'px');
+    jQuery(window).resize(function(){ // change home height on window resize event
+       jQuery('#registration').css('height', jQuery(this).height()+ 'px');
+    });
+});
+</script>
+
+	<!-- id:wrapper -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-CQPP4BP556"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-CQPP4BP556');
+	</script> 
+	<!-- End Google Analytics -->
+
+
+
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/jquery.menu-aim.js"></script>
+
+
+
+	<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/min/bootstrap.min.js?v3.4.1"></script>
+
+
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/min/select2-custom.min.js"></script>
+
+
+<script src="https://cdn.certain.com/8.1.12/assets/js/lib/jquery/jquery.cookie.pack.js?v6125"></script>
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/min/jquery.metadata.min.js?v470"></script>
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/tablesorter/jquery.tablesorter.js?v2.14.4"></script>
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/tablesorter/jquery.tablesorter.widgets.js"></script>
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/tablesorter/addons/pager/jquery.tablesorter.pager.min.js?v2.14.5"></script>
+
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/min/jquery.validate.min.js?v1.19.5"></script>
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/min/jquery-ui.min.js?v1.13.2"></script>
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/min/jquery.visible.min.js"></script>
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/min/pnotify.custom.min.js?v3.0.0"></script>
+
+
+<script src="https://cdn.certain.com/8.1.12/assets/js/lib/jquery/jquery.favorites.js"></script>
+<script src="https://cdn.certain.com/8.1.12/assets/vendor/js/certain.js?5D64B380"></script>
+<script src="https://cdn.certain.com/8.1.12/assets/js/popup.js"></script>
+
+	
+	  	<script type="text/javascript">
+
+		  (function(n,t,a,e,co){var i="aptrinsic";n[i]=n[i]||function(){
+		      (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;n[i].c=co;
+		    var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
+		    var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
+		  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-0SB3KDU4MYSA-2");
+		
+			
+	    			// passing user and account objects:
+			aptrinsic("identify",
+			  {
+				//User Fields
+				id: 'rdaniels@ushmm.org_ushmm',
+				email: 'rdaniels@ushmm.org',
+				firstName: 'Robert',
+				lastName: 'Daniels',
+				signUpDate: '1692805054167',
+				userType: 'Administrator',
+				roleBased: 'false',
+				customerPod: 'pod2',
+				portalCode: 'ushmm'
+			  },
+			  {
+			  	//Account Fields
+				id: '001u000000uvet5iab',
+				name: 'USHMM National Operations',
+				platformAcctId: '',
+				sfdcId: '001u000000uvet5iab'
+			 	}
+			  );
+			aptrinsic('bot', 'search', {labels: ['gainsight_article']});
+		</script> 
+
+<script>
+
+	
+</script>
+
+
+
+ <div class="modal fade" id="systemInfo" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header"><h4 class="modal-title">System Information</h4></div>
+        <div class="modal-body">
+            Pod: pod2<br>
+            Server: app101.pod2.prod.va.certainaws.com<br>
+            Version: 8.1.12<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<div class="apt-guide-overlay-top" style="display: none; visibility: hidden;"></div><div class="apt-guide-overlay-bottom" style="display: none; visibility: hidden;"></div><div class="apt-guide-overlay-left" style="display: none; visibility: hidden;"></div><div class="apt-guide-overlay-right" style="display: none; visibility: hidden;"></div><div id="apt-widget" class="apt-widget-top-container"><div class="apt-widget"><span id="apt-widget-animation-container" class="apt-widget-animation-container"></span><div id="apt-widget-controller" class="apt-widget-dragging-element dragging-element" style="inset: auto auto 5px 300px; transform: translate(0px, 0px);"><div class="apt-widget-controller-content" style="display: flex;"><button aria-label="Knowledge Center Bot, also known as KC Bot is an onboarding assistant that allows you to see the list of onboarding items in one place for quick and easy reference. This improves your in-app experience." class="apt-widget-dragging-handle dragging-handle"></button><iframe role="img" aria-hidden="true" tabindex="-1" name="widget-icon" class="apt-widget-icon-frame" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" title="Knowledge Center Bot, also known as KC Bot is an onboarding assistant that allows you to see the list of onboarding items in one place for quick and easy reference. This improves your in-app experience." style="height: 36.25px; width: 36.25px;"></iframe></div></div><div></div></div></div><iframe class="apt-widget-frame" style="opacity: 0; transform: scale(0); visibility: hidden; position: absolute; top: -9999px; left: -9999px;" data-sdkconfig="{&quot;apiKey&quot;:&quot;AP-0SB3KDU4MYSA-2&quot;,&quot;aptId&quot;:&quot;ed27c871-4f37-4c85-8d3f-a9e2dec7ad93&quot;,&quot;initialConfig&quot;:{&quot;kcId&quot;:&quot;92956416-60ab-47fe-893c-4aa776e048f2&quot;,&quot;subscriptionId&quot;:&quot;5dc597a0-c7f8-44ae-bd18-15350fca70d5&quot;,&quot;propertyGroupId&quot;:&quot;0SB3KDU4MYSA&quot;,&quot;enabled&quot;:true,&quot;urlPattern&quot;:&quot;*&quot;,&quot;injectionType&quot;:&quot;FLOATING_BTN&quot;,&quot;progressBarSettings&quot;:{&quot;enabled&quot;:false,&quot;countArticle&quot;:false,&quot;barBackgroundColor&quot;:&quot;#C3C3C3&quot;,&quot;barFillColor&quot;:&quot;#0F87EC&quot;,&quot;barHeight&quot;:8,&quot;barWidth&quot;:87,&quot;categoriesSectionTitle&quot;:&quot;Additional Modules&quot;,&quot;textMessage&quot;:&quot;Getting Started&quot;,&quot;textMessageColor&quot;:&quot;#515151&quot;,&quot;textMessageFontSize&quot;:14,&quot;progressValueType&quot;:&quot;COUNTER&quot;},&quot;badgeSettings&quot;:{&quot;enabled&quot;:false,&quot;backgroundColor&quot;:&quot;#D8640E&quot;,&quot;textColor&quot;:&quot;#FFFFFF&quot;,&quot;borderColor&quot;:&quot;#D8640E&quot;,&quot;fontSize&quot;:10,&quot;position&quot;:&quot;TOP_LEFT&quot;},&quot;tabsSettings&quot;:{&quot;id&quot;:null,&quot;hideSingleTab&quot;:false,&quot;onboardingIcon&quot;:&quot;BOT_20&quot;,&quot;feedbackIcon&quot;:&quot;BOT_21&quot;,&quot;knowledgeBaseIcon&quot;:&quot;BOT_13&quot;,&quot;onboardingIconColor&quot;:&quot;#000000&quot;,&quot;feedbackIconColor&quot;:&quot;#000000&quot;,&quot;knowledgeBaseIconColor&quot;:&quot;#000000&quot;,&quot;onboardingTabIndex&quot;:1,&quot;feedbackTabIndex&quot;:2,&quot;knowledgeBaseTabIndex&quot;:3,&quot;defaultTabIndex&quot;:0},&quot;windowSettings&quot;:{&quot;contentBackgroundColor&quot;:&quot;#ffffff&quot;,&quot;headerColor&quot;:&quot;#404040&quot;,&quot;textColor&quot;:&quot;#000000&quot;,&quot;hoverTextColor&quot;:&quot;#404040&quot;,&quot;selectedTabHighlightColor&quot;:&quot;#2fb36d&quot;,&quot;unselectedTabColor&quot;:&quot;#f9f8f7&quot;,&quot;headerText&quot;:&quot;Knowledge Center&quot;,&quot;headerTextColor&quot;:&quot;#ffffff&quot;,&quot;headerIcon&quot;:&quot;&quot;,&quot;headerFont&quot;:&quot;&quot;,&quot;textFont&quot;:&quot;&quot;,&quot;tooltipTextColor&quot;:&quot;#07f163&quot;,&quot;tooltipBackgroundColor&quot;:&quot;#404040&quot;,&quot;badgeColor&quot;:&quot;#ff7f00&quot;,&quot;badgeTextColor&quot;:&quot;#ffffff&quot;,&quot;newEngagementIcon&quot;:&quot;&quot;,&quot;completedEngagementIcon&quot;:&quot;success-1&quot;,&quot;inProgressEngagementIcon&quot;:&quot;success-3&quot;,&quot;categoryHoverStripeColor&quot;:&quot;#2fb36d&quot;,&quot;categoryHoverBackgroundColor&quot;:&quot;#000000&quot;,&quot;categoryHoverBackgroundFill&quot;:10,&quot;categoryHoverArrowColor&quot;:&quot;#2fb36d&quot;,&quot;submitButtonColor&quot;:&quot;#2fb36d&quot;,&quot;searchResultsTitleColor&quot;:&quot;#000000&quot;,&quot;searchResultsSummeryColor&quot;:&quot;#000000&quot;,&quot;botPosition&quot;:&quot;LEFT&quot;,&quot;botPositionOffsetBottom&quot;:5,&quot;widgetHeight&quot;:500,&quot;widgetWidth&quot;:400,&quot;feedbackHeaderText&quot;:&quot;Your Feedback&quot;,&quot;docsSearchHeaderText&quot;:&quot;Knowledge Base&quot;,&quot;showSpeechBobble&quot;:false,&quot;showEngagementsType&quot;:true,&quot;showCategoryIcon&quot;:true,&quot;showEngagementsCompletedIndicator&quot;:false,&quot;showEngagementsInProgressIndicator&quot;:false,&quot;showEngagementsNotViewedIndicator&quot;:false,&quot;engagementsTypeColor&quot;:&quot;#2fb36d&quot;,&quot;engagementsNotViewedIndicatorColor&quot;:&quot;#ff7f00&quot;,&quot;engagementsInProgressIndicatorColor&quot;:&quot;#FF7F00&quot;,&quot;engagementsCompletedIndicatorColor&quot;:&quot;#0F87EC&quot;,&quot;categoryColor&quot;:&quot;#2fb36d&quot;,&quot;embedKCSettings&quot;:{&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;positionSettings&quot;:{&quot;positionVertical&quot;:&quot;TOP&quot;,&quot;positionHorizontal&quot;:&quot;RIGHT&quot;,&quot;positionTopDelta&quot;:0,&quot;positionLeftDelta&quot;:0},&quot;elementSelector&quot;:{&quot;cssSelector&quot;:null,&quot;type&quot;:null,&quot;unique&quot;:false,&quot;matchCssSelector&quot;:true,&quot;matchTextRule&quot;:null,&quot;textRule&quot;:null},&quot;calculatedPosition&quot;:{}},&quot;showReadMore&quot;:true,&quot;botPositionHorizontalOffset&quot;:300,&quot;allowDismiss&quot;:false,&quot;dismissButtonColor&quot;:&quot;#2fb36d&quot;,&quot;enableOnboardingSearch&quot;:false,&quot;knowledgeBaseSearchText&quot;:&quot;Search for help articles by typing in the search box below!&quot;,&quot;resizable&quot;:false,&quot;hideArticleSummary&quot;:false,&quot;linkIconColor&quot;:&quot;#7596B7&quot;,&quot;funcIconColor&quot;:&quot;#7596B7&quot;,&quot;zindex&quot;:null},&quot;floatingButtonSettings&quot;:{&quot;openStateColor&quot;:&quot;#2fb36d&quot;,&quot;closedStateColor&quot;:&quot;#ffffff&quot;,&quot;iconCloseColor&quot;:&quot;#000000&quot;,&quot;openStateIcon&quot;:&quot;BOT_13&quot;,&quot;closedStateIcon&quot;:&quot;CLOSE_1&quot;,&quot;rightPadding&quot;:&quot;20px&quot;,&quot;bottomPadding&quot;:&quot;20px&quot;,&quot;iconOpenColor&quot;:&quot;#ffffff&quot;,&quot;iconSize&quot;:25,&quot;useImage&quot;:false,&quot;draggable&quot;:true,&quot;imageUrl&quot;:&quot;https://storage.googleapis.com/aptrinsic-cloud-public-assets/widget/white-green.png&quot;},&quot;onBoardingSettings&quot;:{&quot;autoSuggestionType&quot;:&quot;ON_LOGIN&quot;,&quot;suggestionText&quot;:&quot;Welcome!\nI'm your onboarding assistant. Let's get you setup!&quot;,&quot;completionText&quot;:&quot;That's it, your onboarding is done!&quot;,&quot;backgroundColor&quot;:&quot;#ffffff&quot;,&quot;textColor&quot;:&quot;#000000&quot;,&quot;textFont&quot;:&quot;&quot;,&quot;textFontSize&quot;:12},&quot;includePatterns&quot;:[&quot;*&quot;],&quot;excludePatterns&quot;:[],&quot;enableFeedback&quot;:false,&quot;enableOnBoarding&quot;:true,&quot;articleSearchEnabled&quot;:true,&quot;articleProvider&quot;:&quot;ZENDESK_ARTICLE_PROVIDER&quot;,&quot;articleProviderDomain&quot;:&quot;certain&quot;,&quot;articleProviderDown&quot;:false,&quot;environments&quot;:[1,2],&quot;name&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;,&quot;state&quot;:&quot;STARTED&quot;,&quot;contextualSearchSetting&quot;:&quot;DISABLED&quot;,&quot;contextualSearchTerm&quot;:&quot;&quot;,&quot;defaultLanguage&quot;:&quot;en&quot;,&quot;configLanguages&quot;:[],&quot;configLocale&quot;:null,&quot;staticFields&quot;:{&quot;guideRedirectMessage&quot;:null,&quot;guideRedirectConfirmButton&quot;:null,&quot;guideRedirectCancelButton&quot;:null,&quot;feedbackDropdownIssue&quot;:null,&quot;feedbackDropdownFeatureRequest&quot;:null,&quot;feedbackDropdownGeneralFeedback&quot;:null,&quot;feedbackDropdownOther&quot;:null,&quot;feedbackSubjectPlaceholder&quot;:null,&quot;feedbackDescriptionPlaceholder&quot;:null,&quot;feedbackSubmitButtonLabel&quot;:null,&quot;feedbackThankYouMessage&quot;:null,&quot;feedbackLeaveAnotherMessage&quot;:null,&quot;knowledgeBaseBlankSearchMessage&quot;:null,&quot;knowledgeBaseNoResultMessage&quot;:null,&quot;knowledgeBaseInputPlaceholder&quot;:null,&quot;knowledgeBaseFailureMessage&quot;:null,&quot;searchShowMore&quot;:null,&quot;searchShowLess&quot;:null,&quot;searchNoResults&quot;:null,&quot;feedbackLabelsDropdownNoOptions&quot;:null,&quot;feedbackLabelsDropdownPlaceholder&quot;:null,&quot;multipleFeedbackLabelsText&quot;:null,&quot;singleFeedbackLabelText&quot;:null},&quot;kcFeedbackCategories&quot;:[{&quot;feedbackCategoryId&quot;:&quot;288f8641-ea00-11eb-8c74-42010a80040b&quot;,&quot;name&quot;:&quot;Issue&quot;,&quot;sequence&quot;:1,&quot;labels&quot;:[]}],&quot;searchSettings&quot;:{&quot;enabled&quot;:false,&quot;searchText&quot;:&quot;Type something in the search box.&quot;,&quot;searchTextColor&quot;:&quot;#1c3b60&quot;,&quot;showMoreColor&quot;:&quot;#49627f&quot;,&quot;searchBar&quot;:{&quot;backgroundColor&quot;:&quot;#FFFFFF&quot;,&quot;textColor&quot;:&quot;#000000&quot;,&quot;borderColorEnabled&quot;:&quot;#49627f&quot;,&quot;borderColorHover&quot;:&quot;#1c3b60&quot;,&quot;borderColorSelected&quot;:&quot;#1c3b60&quot;,&quot;searchIconColor&quot;:&quot;#1c3b60&quot;,&quot;clearIconColor&quot;:&quot;#1c3b60&quot;,&quot;backIconColor&quot;:&quot;#1c3b60&quot;,&quot;placeholderText&quot;:&quot;Search...&quot;,&quot;placeholderColor&quot;:&quot;#49627f&quot;},&quot;tabs&quot;:{&quot;allTabText&quot;:&quot;All&quot;,&quot;engTabText&quot;:&quot;Engagements&quot;,&quot;articleTabText&quot;:&quot;Articles&quot;,&quot;communityTabText&quot;:&quot;Community&quot;,&quot;knowledgeBaseTabText&quot;:&quot;Knowledge Base&quot;,&quot;color&quot;:&quot;#3d566f&quot;,&quot;hoverColor&quot;:&quot;#1c3b60&quot;,&quot;selectedColor&quot;:&quot;#1c3b60&quot;,&quot;linkTabText&quot;:&quot;Links&quot;}},&quot;recommendationSettings&quot;:{&quot;enabled&quot;:false,&quot;backgroundColor&quot;:&quot;#f1f5f8&quot;,&quot;iconUrl&quot;:&quot;&quot;,&quot;title&quot;:&quot;Recommended content&quot;,&quot;subtitle&quot;:&quot;Kickstart your work with these specially curated content for you.&quot;,&quot;titleColor&quot;:&quot;#19232f&quot;,&quot;subtitleColor&quot;:&quot;#7596b7&quot;},&quot;feedbackSettings&quot;:{&quot;subject&quot;:&quot;Subject&quot;,&quot;description&quot;:&quot;Describe your issue and share your thoughts...&quot;,&quot;submitButton&quot;:{&quot;enabled&quot;:true,&quot;backgroundColor&quot;:&quot;#2fb36d&quot;,&quot;backgroundFill&quot;:null,&quot;showBorder&quot;:false,&quot;borderColor&quot;:null,&quot;text&quot;:&quot;Submit&quot;,&quot;textColor&quot;:&quot;#FFFFFF&quot;,&quot;cornerRadius&quot;:4,&quot;hoverBackgroundColor&quot;:null,&quot;hoverBackgroundFill&quot;:null,&quot;hoverTextColor&quot;:null,&quot;hoverBorderColor&quot;:null,&quot;fontSettings&quot;:{&quot;fontFamily&quot;:null,&quot;fontSize&quot;:15,&quot;bold&quot;:false,&quot;itallic&quot;:false,&quot;underlined&quot;:false},&quot;buttonPaddingSettings&quot;:null,&quot;shouldOverrideGlobalSettings&quot;:false,&quot;borderWidth&quot;:1.25},&quot;ackText&quot;:&quot;Thank you for your feedback&quot;,&quot;backButtonText&quot;:&quot;Send another feedback&quot;},&quot;communitySettings&quot;:{&quot;enableCommunitySearch&quot;:false,&quot;selectedCommunityCategoryIds&quot;:&quot;&quot;,&quot;selectedCommunityProductAreaIds&quot;:&quot;&quot;,&quot;backgroundColor&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;&quot;,&quot;textTitle&quot;:&quot;&quot;,&quot;textSubtitle&quot;:&quot;&quot;,&quot;titleColor&quot;:&quot;&quot;,&quot;subtitleColor&quot;:&quot;&quot;},&quot;p&quot;:&quot;AP-0SB3KDU4MYSA-2&quot;,&quot;labels&quot;:[&quot;gainsight_article&quot;],&quot;showIcon&quot;:true,&quot;isEmbedded&quot;:false,&quot;kcPositionType&quot;:&quot;injection&quot;,&quot;enableKcSecureArticle&quot;:false},&quot;enableKcSecureArticle&quot;:false}"></iframe></body></html>
